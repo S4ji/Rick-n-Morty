@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}/*# sourceMappingURL=style.css.map */
